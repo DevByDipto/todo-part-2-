@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do(part-2)</title>
+    <style>
+         body{
+            background-color:rgb(140, 162, 162);
+
+        }
+        button{
+    background-color: rgba(158, 164, 236, 0.6);
+    border: none;
+    border-radius: 20px;
+}
+input{
+    padding-left: 10px;
+    border-radius: 10px;
+    border: .5px solid black;
+}
+        .update{
+            display: none;
+        }
+        .edit{
+            background-color: green;
+        }
+        .delete{
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- work-1============= -->
+    <input class="heading_input" type="text">
+    <input class="caption_input" type="text">
+    <button class="post">Post</button>
+    <button class="update">update</button>
+   <div class="note_list"></div>
+    <script src="./script.js"></script>
+</body>
+</html>
